@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.0.2](https://github.com/Tchoupinax/terraform-module-wireguard/tree/v0.0.2) (2022-05-18)
+
+[Full Changelog](https://github.com/Tchoupinax/terraform-module-wireguard/compare/v0.0.1...v0.0.2)
+
 ## [v0.0.1](https://github.com/Tchoupinax/terraform-module-wireguard/tree/v0.0.1) (2022-05-18)
 
 [Full Changelog](https://github.com/Tchoupinax/terraform-module-wireguard/compare/5fed0fe81a7b1732268146312476687fe09416c8...v0.0.1)
