@@ -1,0 +1,13 @@
+name: Security hardening (Github Actions workflows)
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths: [".github/workflows/**"]
+
+jobs:
+  ci_harden_security:
+    name: Security hardening
+    permissions:
+      security-events: write
+    uses: xunleii/github-actions-grimoire/.github/workflows/security.workflows.yaml@7b2b7670929e4c824678dd0c2b6521d115602dfc
