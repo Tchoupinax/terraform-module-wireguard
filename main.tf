@@ -118,7 +118,7 @@ resource "local_file" "client" {
 ## Copy configuration on the server and restart wireguard
 ##
 
-resource "null_resource" "configure-wireguard-server" {
+resource "null_resource" "configure_wireguard_server" {
   depends_on = [data.template_file.server_config, data.template_file.client_config]
 
   provisioner "file" {
